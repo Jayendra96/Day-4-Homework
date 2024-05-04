@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F2F2F2 ;
+  font-family: "Noto Sans";
+}
+                                /* left-section */
+.container{
+  display: flex;
+  width: 100%;
+}
+
+.left-section{
+  height: 100%;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.5rem;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  padding: 1rem 0;
+  flex-direction: column;
+  width: 10rem;
+  align-items: center;
+}
+.card img{
+  width: 8rem;
+}
+
+.card h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+                                          /* right-section */
+
+/*first-section*/
+
+.first-section{
+  display: flex;
+}
+.first-section .left{
+  width: 49%;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 2rem 3rem;
+}
+
+.first-section .left h1{
+  font-size: 3.8rem;
+  line-height: 4rem;
+  font-weight: 900;
+}
+
+.first-section .left h4{
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0 , 0.8);
+}
+
+.first-section .right{
+  width: 49%;
+  border-bottom: 4px solid black;
+  padding: 2rem 0 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+
+.first-section .right .address p{
+  margin: 0.6rem 0;
+}
+.first-section .right .address p span{
+  display: inline-block;
+width: 35%;
+margin-right: 2rem;
+}
+
+
+/*second-section*/
+
+.second-section{
+  width: 98%;
+  padding: 2.3rem 2rem;
+  border-bottom: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.3rem;
+}
+
+.second-section h5{
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.second-section p{
+font-size: 0.9rem;
+font-weight: 500;
+}
+
+.work-data{
+  display: flex;
+}
+.work-data .left{
+  width: 10%;
+}
+
+.work-data
