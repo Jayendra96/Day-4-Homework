@@ -113,4 +113,63 @@ font-weight: 500;
   width: 10%;
 }
 
-.work-data
+/*third-section*/
+.third-section{
+  display: flex;
+}
+
+.third-section .left{
+  width: 49%;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 2rem 2rem;
+}
+
+
+.skill-data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-name{
+  font-size: 0.95rem;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+
+.skill-rate i{
+  margin: 0px 2px;
+}
+
+.third-section .right{
+  width: 49%;
+  border-bottom: 4px solid black;
+  padding: 2rem 2rem;
+}
+
+.data{
+  display: flex;
+  align-items: flex-start;
+  column-gap: 1rem;
+ margin-bottom: 1.5rem;
+}
+.data .name{
+  font-size: 0.95rem;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+
+.data .para{
+  font-size: 0.9rem;
+font-weight: 600;
+}
+
+/*fourth section*/
+
+.fourth-section{
+  margin-top: 1.9rem;
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
